@@ -1,0 +1,24 @@
+{
+  "name": "belajar_api",
+  "version": "1.0.0",
+  "description": "Ini adalah contoh Api Sederhana",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exinpm t 1"
+  },
+  "keywords": [
+    "Api",
+    "Whatsapp"
+  ],
+  "author": "Abu Haniifa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http": "0.0.1-security",
+    "qrcode": "^1.4.4",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.1.2",
+    "whatsapp-web.js": "^1.12.6"
+  }
+}
